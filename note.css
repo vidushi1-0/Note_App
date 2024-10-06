@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #FFFCF9;
+}
+
+.con1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.underline {
+    background-color: black;
+    margin-top: 4px;
+    height: 2px;
+    width: 60px;
+}
+
+.color {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+}
+
+.colors {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 265px;
+    left: 394px;
+}
+
+.input-box {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 40px;
+    width: 580px;
+    border: 1.5px solid rgb(255, 157, 157);
+    box-shadow: 0 0 16px 2px rgba(216, 187, 187, 0.8);
+}
+
+.add {
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    margin-left: 1000px;
+    margin-top: 30px;
+    background-color: #D6E681;
+}
+
+.add:hover {
+    background-color: #8F7E4F;
+    color: white;
+}
+
+.notes {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin-left: 130px;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.note {
+    height: 330px;
+    width: 450px;
+    padding: 10px;
+}
+
+.note p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: white wavy underline;
+}
+
+@media (max-width: 700px) and (min-width: 300px) {
+    .con1 {
+        font-size: 14px;
+        margin-right: 75px;
+    }
+    input {
+        height: 30px;
+        width: 230px;
+        margin-right: 50px;
+    }
+    .add {
+        margin-left: 208px;
+        height: 25px;
+        width: 90px;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    .colors {
+        left: 50px;
+        gap: 3px;
+        top: 230px;
+    }
+    .color {
+        height: 13px;
+        width: 13px;
+    }
+    .notes {
+        margin-left:  5px;
+        gap: 40px;
+    }
+    .note {
+        height: 540px;
+    }
+}
